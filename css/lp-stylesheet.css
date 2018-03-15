@@ -1,0 +1,144 @@
+/*For a color scheme similar to The Last Parsec*/
+body {
+	background-color: #1c2a3b;
+	width: auto;
+}
+
+#main-working-container {
+	background-color: #dae8eb;
+	margin-top: 60px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	padding: 10px;
+}
+
+h2 {
+	color: #e0f4ff;
+	background-color: #4c94ac;
+	text-shadow: 	-1px -1px 0 #4fb1e5,
+					1px -1px 0 #4fb1e5,
+					-1px 1px 0 #4fb1e5,
+					1px 1px 0 #4fb1e5;
+	padding: 10px;
+}
+
+h3 {
+	color: #e0f4ff;
+	text-shadow: 	-1px -1px 0 #4fb1e5,
+					1px -1px 0 #4fb1e5,
+					-1px 1px 0 #4fb1e5,
+					1px 1px 0 #4fb1e5;
+}
+
+.cs-test {
+	color: #00ff00;
+}
+
+/*This is for non-generator pages*/
+.cs-table{
+	width: 100%;
+}
+
+.cs-table th {
+	background-color: #0079b8;
+	color: #e0f4ff;
+	padding: 0 5px 0 5px;
+}
+
+.cs-table tr {
+	background-color: #74d8ff;
+}
+
+.cs-table tr:nth-child(even) {
+	background-color: #c8ebff;
+}
+
+.cs-table td {
+	padding: 5px;
+	text-align: center;
+	font-size: small;
+}
+
+.cs-table td:nth-child(2) {
+	text-align: left;
+}
+/*#######################*/
+
+/*This is for generator pages*/
+.cs-table2{
+	width: 100%;
+}
+
+.cs-table2 th {
+	background-color: #0079b8;
+	color: #e0f4ff;
+	padding: 0 5px 0 5px;
+}
+
+.cs-table2 tr {
+	background-color: #74d8ff;
+}
+
+.cs-table2 tr:nth-child(even) {
+	background-color: #c8ebff;
+}
+
+.cs-table2 td {
+	padding: 5px;
+	text-align: center;
+	font-size: small;
+}
+
+.cs-table2 td:nth-child(2) {
+	text-align: left;
+}
+/*#######################*/
+
+.cs-sidebar {
+	color: #ffffff;
+	background-color: #47849d;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #37526b;
+	box-shadow:
+		0 0 0 4px #4badda,
+		0 0 0 4px #4badda,
+		0 0 0 4px #4badda,
+		0 0 0 4px #4badda,
+		0 0 0 4px #4badda;
+}
+
+/*This adds the effect of a double border with different colors, using pseudo elements
+DOES NOT WORK AS EXPECTED
+.cs-sidebar:before {
+	background: none;
+	border: 2px;
+	border-style: solid;
+	border-color: #4badda;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	bottom: 4px;
+	right: 4px;
+	pointer-events: none;
+}
+*/
+
+.cs-sidebar h2 {
+	background-color: #4a91ad;
+}
+
+.cs-sidebar p {
+	padding: 10px;
+}
+
+.minus-button {
+	margin: 2px;
+}
+
+.plus-button {
+	margin: 2px;
+}

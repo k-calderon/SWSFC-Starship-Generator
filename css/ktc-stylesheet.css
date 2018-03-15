@@ -1,0 +1,39 @@
+body {
+	background-color: #1c2a3b;
+	width: auto;
+}
+
+.ktc-test {
+	color: #00ff00;
+}
+#main-container {
+	background-color: #dae8eb;
+	margin-top: 60px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.lp-table{
+	
+}
+
+.lp-table td {
+	padding: 5px;
+}
+
+.lp-table td:nth-child(1) {
+	text-align: center;
+}
+
+.lp-table th {
+	background-color: #0079b8;
+	color: #e0f4ff;
+}
+.lp-table tr {
+	background-color: #74d8ff;
+}
+
+.lp-table tr:nth-child(even) {
+	background-color: #c8ebff;
+}
