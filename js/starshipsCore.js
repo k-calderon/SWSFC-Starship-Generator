@@ -19,8 +19,8 @@ var handlers = {
 			}
 		}
 	},
-	// pass a property of shipTemplate into this method
-	// adds elements into the ship array from a 
+	// pass a property of shipTemplate into this 'size' method
+	// adds elements into the ship array from a template in shipTemplate
 	size: function (shipSize) {	
 		ship.remainingMods = shipSize.totalMods;
 		for (var prop in shipSize) {
@@ -38,7 +38,7 @@ var handlers = {
 	addWeapon: function(wepID) {
 		//search for weapons by this key and value combo. vehicleWeapons[i].ID
 		//ex. vehicleWeapons[i].ID === autoCannonLight
-		for (i = 0; i < vehicleWeapons.length; i++) {
+		for (var i = 0; i < vehicleWeapons.length; i++) {
 			if (vehicleWeapons[i].ID === wepID) {
 				ship.weapons.push(vehicleWeapons[i]);
 			}
@@ -48,18 +48,40 @@ var handlers = {
 		//delete weapons from the ship.weapons array
 		// it needs to get the position in the ship.weapons array of the weapon I want to delete
 		// then it needs to use a .splice method to remove it from the array.
-		var position = 0;
-		for (i = 0; i < ship.weapons.length; i++) {
+		for (var i = ship.weapons.length - 1; i >= 0; i--) {
 			if (ship.weapons[i].ID === wepID) {
-				position = i;
+				ship.weapons.splice(i, 1);
 			};
-		};
-		ship.weapons.splice(position, 1);		
+		};				
 	},
+
 	calcRemainingMods: function() {
 		ship.remainingMods = ship.totalMods;
 		ship.weapons.forEach(function(element) {		
 			ship.remainingMods =  ship.remainingMods - element.Mods;
+		});
+	}
+};
+
+var view = {
+	displayWeapons: function (){
+		var weaponsList = document.querySelector('#weapons-list');
+		weaponsList.innerHTML = '';
+		
+		vehicleWeapons.forEach(function (weapon, position){
+			//grab the name of the weapon
+			//(weapon.Name is the name of the weapon)
+			//create an entry in the html for it
+			/*<div class="row" style="background-color: green;">
+						<div class="col-xs-2">
+							<button class="btn minus-button">-</button><button class="btn plus-button">+</button>
+						</div>
+						<div class="col-xs-10">
+							<p>Superstructure (Passenger, Military)</p>
+						</div>
+			*/
+			var weaponsDiv = document.createElement('div').innerHTML('test');
+			weaponsList.appendChild(weaponsDiv);
 		});
 	}
 };
