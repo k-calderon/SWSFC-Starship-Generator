@@ -41,8 +41,9 @@ var handlers = {
 		for (var i = 0; i < vehicleWeapons.length; i++) {
 			if (vehicleWeapons[i].ID === wepID) {
 				ship.weapons.push(vehicleWeapons[i]);
-			}
-		}		
+			};
+		};
+		handlers.calcRemainingMods();		
 	},
 	deleteWeapon: function(wepID){
 		//delete weapons from the ship.weapons array
@@ -52,7 +53,8 @@ var handlers = {
 			if (ship.weapons[i].ID === wepID) {
 				ship.weapons.splice(i, 1);
 			};
-		};				
+		};
+		handlers.calcRemainingMods();				
 	},
 
 	calcRemainingMods: function() {
@@ -80,7 +82,8 @@ var view = {
 							<p>Superstructure (Passenger, Military)</p>
 						</div>
 			*/
-			var weaponsDiv = document.createElement('div').innerHTML('test');
+			var weaponsDiv = document.createElement('div')
+			weaponsDiv.innerHTML = '<div class="row" style="background-color: green;"><div class="col-xs-2"><button class="btn minus-button">-</button><button class="btn plus-button">+</button></div><div class="col-xs-10"><p> '+ weapon.Name + ' </p></div>';
 			weaponsList.appendChild(weaponsDiv);
 		});
 	}
@@ -104,6 +107,5 @@ function test () {
 	handlers.calcRemainingMods();
 	console.log(ship.remainingMods);
 	//handlers.newShip();
-	console.log(ship);
-	
+	console.log(ship);	
 };

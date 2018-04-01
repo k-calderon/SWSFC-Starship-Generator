@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Starship Generator</title>
+	
+	<!--Including Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	<!--Including lp-stylesheet.css-->
+	<link rel="stylesheet" type="text/css" href="css/lp-stylesheet.css">	
+	
+	<!--Including jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	
+</head>
+
+<body>
+<!--do not touch this div-->
+<div class="container-fluid">
+<!--DON'T!-->
+
+<div id="main-working-container">
+
+	<div class="row">
+		<div class="col-md-6" id="column-one">
+			<div id="basic-information">
+				<h2>Basic Information</h2>
+				<label>Ship Name</label>
+				<form>
+					<input type="text">
+				</form>
+				<label>Ship Description</label>
+				<form>
+					<input type="text">
+				</form>
+				<label>Size</label><br>
+				<select>
+					<option value="sSmall">Small Starship - Size 6</option>
+					<option value="sMedium">Medium Starship - Size 8</option>
+					<option value="sLarge">Large Starship - Size 12</option>
+					<option value="sHuge">Huge Starship - Size 16</option>
+					<option value="sGiant">Giant Starship - Size 20</option>
+					<option value="sGargantuan">Gargantuan Starship - Size 24</option>
+					<option value="sBehemoth">Behemoth Starship - Size 28</option>
+					<option value="sLeviathan">Leviathan Starship - Size 32</option>
+					<option value="sWorldKiller">World Killer Starship - Size 40</option>
+				</select>
+			</div>
+			<div id="modifications">
+				<h2>Modifications</h2>
+				<div class="container-fluid">
+					<div class="row" style="background-color: green;">
+						<div class="col-xs-2">
+							<button class="btn minus-button">-</button><button class="btn plus-button">+</button>
+						</div>
+						<div class="col-xs-10">
+							<p>Superstructure (Passenger, Military)</p>
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6" id="column-two">
+			<div id="weapons">
+				<h2>Weapons</h2>
+				<div id="weapons-list" class="container-fluid">
+					<div class="row" style="background-color: green;">
+						<div class="col-xs-2">
+							<button class="btn minus-button">-</button><button class="btn plus-button">+</button>
+						</div>
+						<div class="col-xs-10">
+							<p>Superstructure (Passenger, Military)</p>
+						</div>
+					</div>					
+				</div>
+			</div>
+			<div id="installed-weapons">
+				<h2>Installed Weapons</h2>
+			</div>
+		</div>
+	</div>
+	
+	<div id="stat-block">
+
+	</div>
+
+</div>
+
+</div>
+
+
+<!--Including external .js files-->
+<script src="js\vehicle-weapons.js"></script>
+<script src="js\ship-templates.js"></script>
+<script src="js\starshipsCore.js"></script> 
+
+
+</body>
+
+</html> 
