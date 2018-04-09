@@ -1,4 +1,4 @@
-var blankShip = {
+const blankShip = {
 	"name": "",
 	"description": "",
 	"remainingMods": 0,
