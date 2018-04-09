@@ -109,3 +109,11 @@ function test () {
 	//handlers.newShip();
 	console.log(ship);	
 };
+
+function testListeners (prop) {
+	console.log('it works! property is ' + prop);
+};
+
+function addEventListener () {
+	document.getElementById("testButton").addEventListener("click", testListeners('test prop'));
+};
