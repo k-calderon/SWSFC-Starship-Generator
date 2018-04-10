@@ -1,3 +1,5 @@
+"use strict";
+
 const blankShip = {
 	"name": "",
 	"description": "",
