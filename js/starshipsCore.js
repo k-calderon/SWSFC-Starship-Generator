@@ -84,8 +84,15 @@ var view = {
 							<p>Superstructure (Passenger, Military)</p>
 						</div>
 			*/
+			const weaponsDivHTML = '<div class="row" style="background-color: green;">\
+										<div class="col-xs-2">\
+											<button class="btn minus-button">-</button><button class="btn plus-button">+</button>\
+										</div>\
+										<div class="col-xs-10">\
+											<p> '+ weapon.Name + ' </p>\
+										</div>';
 			var weaponsDiv = document.createElement('div')
-			weaponsDiv.innerHTML = '<div class="row" style="background-color: green;"><div class="col-xs-2"><button class="btn minus-button">-</button><button class="btn plus-button">+</button></div><div class="col-xs-10"><p> '+ weapon.Name + ' </p></div>';
+			weaponsDiv.innerHTML = weaponsDivHTML;
 			weaponsList.appendChild(weaponsDiv);
 		});
 	}
