@@ -93,6 +93,7 @@ var view = {
 										</div>';
 			var weaponsDiv = document.createElement('div')
 			weaponsDiv.innerHTML = weaponsDivHTML;
+			weaponsDiv.id = weapon.ID;
 			weaponsList.appendChild(weaponsDiv);
 		});
 	}
@@ -123,6 +124,6 @@ function testListeners (prop) {
 	console.log('it works! property is ' + prop);
 };
 
-function addEventListener () {
-	document.getElementById("testButton").addEventListener("click", testListeners('test prop'));
+function addTestEventListener (elId) {
+	document.getElementById(elId).addEventListener("click", testListeners);
 };

@@ -1,6 +1,6 @@
 var vehicleWeapons = [
  {
-   "ID": "autoCannonLight",
+   "ID": "auto-cannon-light",
    "Name": "Auto-cannon, Light",
    "Range": "50/100/200",
    "Damage": "2d12",
@@ -16,7 +16,7 @@ var vehicleWeapons = [
    "Notes": "Up to 20mm rounds. A full reload costs $200."
  },
  {
-   "ID": "autoCannonMedium",
+   "ID": "auto-cannon-medium",
    "Name": "Auto-cannon, Medium",
    "Range": "50/100/200",
    "Damage": "3d8",
@@ -32,7 +32,7 @@ var vehicleWeapons = [
    "Notes": "Covers 21 to 30mm rounds. A full reload costs $400."
  },
  {
-   "ID": "autoCannonHeavy",
+   "ID": "auto-cannon-heavy",
    "Name": "Auto-cannon, Heavy",
    "Range": "75/150/300",
    "Damage": "4d8",
@@ -48,7 +48,7 @@ var vehicleWeapons = [
    "Notes": "Covers 31 to 50mm rounds. A full reload costs $1000."
  },
  {
-   "ID": "",
+   "ID": "bombs-small",
    "Name": "Bombs, Small x12",
    "Range": "Dropped",
    "Damage": "6d10",
@@ -64,7 +64,7 @@ var vehicleWeapons = [
    "Notes": "Large blast template. Up to 250 lb. bombs."
  },
  {
-   "ID": "",
+   "ID": "bombs-medium",
    "Name": "Bombs, Medium x8",
    "Range": "Dropped",
    "Damage": "8d10",
@@ -80,7 +80,7 @@ var vehicleWeapons = [
    "Notes": "10\" radius. 251 to 500 lb. bombs."
  },
  {
-   "ID": "",
+   "ID": "bombs-large",
    "Name": "Bombs, Large x4",
    "Range": "Dropped",
    "Damage": "10d10",
@@ -96,7 +96,7 @@ var vehicleWeapons = [
    "Notes": "20\" radius. 501 to 1000 lb. bombs."
  },
  {
-   "ID": "",
+   "ID": "bombs-block-buster",
    "Name": "Bombs, Block Buster x2",
    "Range": "Dropped",
    "Damage": "10d10",
@@ -112,7 +112,7 @@ var vehicleWeapons = [
    "Notes": "30” radius. 1001 to 4000 lb. bombs."
  },
  {
-   "ID": "",
+   "ID": "bomb-city-buster",
    "Name": "Bomb, City Buster",
    "Range": "Dropped",
    "Damage": "10d10",
@@ -128,7 +128,7 @@ var vehicleWeapons = [
    "Notes": "50” radius. 4001 to 8000 lb. bombs."
  },
  {
-   "ID": "",
+   "ID": "cannon-small",
    "Name": "Cannon, Small",
    "Range": "50/100/200",
    "Damage": "3d10",
@@ -144,7 +144,7 @@ var vehicleWeapons = [
    "Notes": "Medium blast template. Up to 40mm."
  },
  {
-   "ID": "",
+   "ID": "cannon-small-he",
    "Name": "Cannon, Small, H.E.",
    "Range": "50/100/200",
    "Damage": "3d8",
@@ -160,7 +160,7 @@ var vehicleWeapons = [
    "Notes": "Large blast template. Up to 40mm."
  },
  {
-   "ID": "",
+   "ID": "cannon-medium",
    "Name": "Cannon, Medium",
    "Range": "75/150/300",
    "Damage": "4d10",
@@ -176,7 +176,7 @@ var vehicleWeapons = [
    "Notes": "Medium blast template. 41mm to 60mm."
  },
  {
-   "ID": "",
+   "ID": "cannon-medium-he",
    "Name": "Cannon, Medium, H.E.",
    "Range": "75/150/300",
    "Damage": "4d8",
@@ -192,7 +192,7 @@ var vehicleWeapons = [
    "Notes": "Large blast template. 41mm to 60mm."
  },
  {
-   "ID": "",
+   "ID": "cannon-heavy",
    "Name": "Cannon, Heavy",
    "Range": "100/200/400",
    "Damage": "5d10",
@@ -208,7 +208,7 @@ var vehicleWeapons = [
    "Notes": "Large blast template. 61mm to 80mm."
  },
  {
-   "ID": "",
+   "ID": "cannon-heavy-he",
    "Name": "Cannon, Heavy, H.E.",
    "Range": "100/200/400",
    "Damage": "5d8",
@@ -224,7 +224,7 @@ var vehicleWeapons = [
    "Notes": "10\" radius. 61mm to 80mm."
  },
  {
-   "ID": "",
+   "ID": "cannon-super-heavy",
    "Name": "Cannon, Super Heavy",
    "Range": "150/300/600",
    "Damage": "6d10",
@@ -240,7 +240,7 @@ var vehicleWeapons = [
    "Notes": "Large blast template. 81mm to 200mm"
  },
  {
-   "ID": "",
+   "ID": "cannon-super-heavy-he",
    "Name": "Cannon, Super Heavy, H.E.",
    "Range": "150/300/600",
    "Damage": "6d8",
@@ -256,7 +256,7 @@ var vehicleWeapons = [
    "Notes": "10\" radius. 81mm to 200mm"
  },
  {
-   "ID": "",
+   "ID": "flamethrower-heavy",
    "Name": "Flamethrower, Heavy",
    "Range": "See notes",
    "Damage": "3d12",
@@ -272,7 +272,7 @@ var vehicleWeapons = [
    "Notes": "Targets may catch fire. Can be fired in a Cone Template or a Medium Burst Template up to 18” distant. Affects target’s least Armored area."
  },
  {
-   "ID": "",
+   "ID": "grenade-launcher",
    "Name": "Grenade Launcer",
    "Range": "24/48/96",
    "Damage": "3d6",
@@ -288,7 +288,7 @@ var vehicleWeapons = [
    "Notes": "Grenades cost $50 and weigh .25 pounds each. They are the same as the grenades listed on page 20 and may be thrown as well."
  },
  {
-   "ID": "",
+   "ID": "laser-light",
    "Name": "Laser, Light",
    "Range": "150/300/600",
    "Damage": "2d10",
@@ -304,7 +304,7 @@ var vehicleWeapons = [
    "Notes": "-"
  },
  {
-   "ID": "",
+   "ID": "laser-medium",
    "Name": "Laser, Medium",
    "Range": "150/300/600",
    "Damage": "3d10",
@@ -320,7 +320,7 @@ var vehicleWeapons = [
    "Notes": "-"
  },
  {
-   "ID": "",
+   "ID": "laser-heavy",
    "Name": "Laser, Heavy",
    "Range": "150/300/600",
    "Damage": "4d10",
@@ -336,7 +336,7 @@ var vehicleWeapons = [
    "Notes": "-"
  },
  {
-   "ID": "",
+   "ID": "laser-super-heavy",
    "Name": "Laser, Super Heavy",
    "Range": "150/300/600",
    "Damage": "6d10",
@@ -352,7 +352,7 @@ var vehicleWeapons = [
    "Notes": "-"
  },
  {
-   "ID": "",
+   "ID": "laser-massive",
    "Name": "Laser, Massive",
    "Range": "150/300/600",
    "Damage": "8d10",
@@ -368,7 +368,7 @@ var vehicleWeapons = [
    "Notes": "Size 14 and Larger ships, vehicles, or walkers only."
  },
  {
-   "ID": "",
+   "ID": "laser-mega",
    "Name": "Laser, Mega",
    "Range": "150/300/600",
    "Damage": "10d10",
@@ -384,7 +384,7 @@ var vehicleWeapons = [
    "Notes": "Size 16 and Larger ships, vehicles, or walkers only."
  },
  {
-   "ID": "",
+   "ID": "mass-driver-3",
    "Name": "Mass Driver 3",
    "Range": "100/200/400",
    "Damage": "3d12",
@@ -400,7 +400,7 @@ var vehicleWeapons = [
    "Notes": "Projectiles are 10 lb per level and cost $100 per level each. Effective Range is tripled in space."
  },
  {
-   "ID": "",
+   "ID": "mass-driver-4",
    "Name": "Mass Driver 4",
    "Range": "100/200/400",
    "Damage": "4d12",
@@ -416,7 +416,7 @@ var vehicleWeapons = [
    "Notes": "Projectiles are 10 lb per level and cost $100 per level each. Effective Range is tripled in space."
  },
  {
-   "ID": "",
+   "ID": "mass-driver-6",
    "Name": "Mass Driver 6",
    "Range": "100/200/400",
    "Damage": "6d12",
@@ -432,7 +432,7 @@ var vehicleWeapons = [
    "Notes": "Projectiles are 10 lb per level and cost $100 per level each. Effective Range is tripled in space."
  },
  {
-   "ID": "",
+   "ID": "mass-driver-8",
    "Name": "Mass Driver 8",
    "Range": "100/200/400",
    "Damage": "8d12",
@@ -448,7 +448,7 @@ var vehicleWeapons = [
    "Notes": "Projectiles are 10 lb per level and cost $100 per level each. Effective Range is tripled in space."
  },
  {
-   "ID": "",
+   "ID": "mass-driver-10",
    "Name": "Mass Driver 10",
    "Range": "100/200/400",
    "Damage": "10d12",
@@ -464,7 +464,7 @@ var vehicleWeapons = [
    "Notes": "Projectiles are 10 lb per level and cost $100 per level each. Effective Range is tripled in space."
  },
  {
-   "ID": "",
+   "ID": "mass-driver-12",
    "Name": "Mass Driver 12",
    "Range": "100/200/400",
    "Damage": "12d12",
@@ -480,7 +480,7 @@ var vehicleWeapons = [
    "Notes": "Projectiles are 10 lb per level and cost $100 per level each. Effective Range is tripled in space."
  },
  {
-   "ID": "",
+   "ID": "mass-driver-14",
    "Name": "Mass Driver 14",
    "Range": "100/200/400",
    "Damage": "14d12",
@@ -496,7 +496,7 @@ var vehicleWeapons = [
    "Notes": "Projectiles are 10 lb per level and cost $100 per level each. Effective Range is tripled in space."
  },
  {
-   "ID": "",
+   "ID": "mass-driver-16",
    "Name": "Mass Driver 16",
    "Range": "100/200/400",
    "Damage": "16d12",
@@ -512,7 +512,7 @@ var vehicleWeapons = [
    "Notes": "Projectiles are 10 lb per level and cost $100 per level each. Effective Range is tripled in space."
  },
  {
-   "ID": "",
+   "ID": "mass-driver-20",
    "Name": "Mass Driver 20",
    "Range": "100/200/400",
    "Damage": "20d12",
@@ -528,7 +528,7 @@ var vehicleWeapons = [
    "Notes": "Projectiles are 10 lb per level and cost $100 per level each. Effective Range is tripled in space."
  },
  {
-   "ID": "",
+   "ID": "missile-light",
    "Name": "Missile, Light x12",
    "Range": "200/400/800",
    "Damage": "6d6",
@@ -544,7 +544,7 @@ var vehicleWeapons = [
    "Notes": "Small blast template."
  },
  {
-   "ID": "",
+   "ID": "missile-heavy",
    "Name": "Missile, Heavy/AT x8",
    "Range": "200/400/800",
    "Damage": "8d6",
@@ -560,7 +560,7 @@ var vehicleWeapons = [
    "Notes": "Medium blast template."
  },
  {
-   "ID": "",
+   "ID": "missile-at",
    "Name": "Missile, Anti-Tank x8",
    "Range": "100/200/400",
    "Damage": "6d6",
@@ -576,7 +576,7 @@ var vehicleWeapons = [
    "Notes": "Medium blast template."
  },
  {
-   "ID": "",
+   "ID": "torpedo-light",
    "Name": "Torpedo, Light",
    "Range": "300/600/1200",
    "Damage": "8d12",
@@ -592,7 +592,7 @@ var vehicleWeapons = [
    "Notes": "Large blast template. Space or watercraft only. Half Range in water."
  },
  {
-   "ID": "",
+   "ID": "torpedo-heavy",
    "Name": "Torpedo, Heavy",
    "Range": "300/600/1200",
    "Damage": "10d12",
@@ -608,7 +608,7 @@ var vehicleWeapons = [
    "Notes": "Large blast template. Space or watercraft only. Half Range in water."
  },
  {
-   "ID": "",
+   "ID": "medium-mg",
    "Name": "Medium MG",
    "Range": "30/60/120",
    "Damage": "2d8+1",
@@ -624,7 +624,7 @@ var vehicleWeapons = [
    "Notes": "A 200 round belt of ammo costs $400 and weighs 15 pounds."
  },
  {
-   "ID": "",
+   "ID": "heavy-mg",
    "Name": "Heavy MG",
    "Range": "50/100/200",
    "Damage": "2d10",
@@ -640,7 +640,7 @@ var vehicleWeapons = [
    "Notes": "A 200 round belt of ammo costs $250 and weighs 15 pounds."
  },
  {
-   "ID": "",
+   "ID": "minigun",
    "Name": "Minigun",
    "Range": "24/48/96",
    "Damage": "2d8+4",
